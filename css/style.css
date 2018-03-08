@@ -1,0 +1,62 @@
+.container{
+  text-align:center;
+}
+
+.slider{
+  display:inline;
+}
+
+.image{
+  position:absolute;
+  display:none;
+  animation: fadeIn 0.5s ease-in;
+}
+
+button{
+  display:inline;
+}
+
+#next,#prev{
+    height:325px;
+    background:transparent;
+    border:0;
+    cursor:pointer;
+}
+
+
+#next{
+  margin-left:960px;
+}
+
+#img1{
+  display:inline-block;
+}
+
+#autoSlideShow{
+    padding: 10px 15px;
+    background-color: #4c66b2;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor:pointer;
+    border-radius:2px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
